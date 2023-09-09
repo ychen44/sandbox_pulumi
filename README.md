@@ -9,9 +9,8 @@
 
 ## Deploy the App
 
-### Step 1: Create a directory and cd into it
+### Set Up 
 
-For Pulumi examples, we typically start by creating a directory and changing into it. Then, we create a new Pulumi project from a template. For example, `azure-javascript`.
 
 1. Install prerequisites:
 
@@ -24,7 +23,8 @@ For Pulumi examples, we typically start by creating a directory and changing int
     ```bash
     yarn install
     ```
-2. run pulumi local mose 
+2. To rn Pulumi locally 
+
     ```bash
     pulumi login -l 
     ```
@@ -34,14 +34,6 @@ For Pulumi examples, we typically start by creating a directory and changing int
     ```bash
     pulumi stack init
     ```
-    set env variables 
-    ```bash
-    set -a # automatically export all variables
-    source .env
-    set +a
-    ```
-
-      set -a source .env set +a
 
 3. Configure the AWS region to deploy into:
 
@@ -56,6 +48,7 @@ For Pulumi examples, we typically start by creating a directory and changing int
     ```
 
     or 
+
     ```bash 
     npm run deploy
     ```
