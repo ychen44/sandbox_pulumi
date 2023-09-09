@@ -76,4 +76,5 @@ npm run deploy
 npm run preview
 ```
 
-
+### Pulumi.yaml
+* [Pulumi.yaml doc ](https://www.pulumi.com/blog/pulumi-yaml/)
