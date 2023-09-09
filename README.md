@@ -41,6 +41,8 @@ For Pulumi examples, we typically start by creating a directory and changing int
     set +a
     ```
 
+      set -a source .env set +a
+
 3. Configure the AWS region to deploy into:
 
     ```bash
@@ -52,4 +54,33 @@ For Pulumi examples, we typically start by creating a directory and changing int
     ```bash
     pulumi up
     ```
+
+    or 
+    ```bash 
+    npm run deploy
+    ```
+
+### add .env file 
+
+1. add .env file in root dir with the following variable 
+
+```
+PULUMI_CONFIG_PASSPHRASE=xxx
+AWS_ACCESS_KEY_ID="xxx"
+AWS_SECRET_ACCESS_KEY="xxx"
+AWS_SESSION_TOKEN="xxx"
+```
+
+2. to deploy run command 
+
+```
+npm run deploy
+```
+
+2. preview deployment resources 
+
+```
+npm run preview
+```
+
 
