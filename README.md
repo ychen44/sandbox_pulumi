@@ -1,1 +1,2 @@
-# sandbox repo to test out pulumi
+# sandbox to test out pulumi
+* [Doc](https://www.pulumi.com/docs/clouds/aws/get-started/begin/)
