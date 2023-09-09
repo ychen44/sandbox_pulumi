@@ -1,0 +1,8 @@
+name: sandbox-staging
+runtime: nodejs
+description: sandbox to test Pulumi
+template:
+    config:
+      aws:region:
+        description: The AWS region to deploy into
+        default: us-east-1
